@@ -1,0 +1,95 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+android:background="#9b59b6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="PORTFOLIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- Profile Picture Section -->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/njan"
+        android:contentDescription="Profile Picture"/>
+
+
+    <!-- Name Text -->
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pavana Sanath"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+    <!-- Bio Text -->
+    <TextView
+        android:gravity="center"
+        android:id="@+id/bioText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I am a Btech student at FISAT\n CSD department\nAngamly."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Skills Section -->
+    <TextView
+        android:id="@+id/skillsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skills"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/skillsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java,C programming,html,javascript"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <!-- Projects Section -->
+    <TextView
+        android:id="@+id/projectsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+    <TextView
+        android:id="@+id/projectsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Portfolio App\n2. calculator  App\n3. Food App"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+    <!-- Contact Section -->
+    <TextView
+        android:id="@+id/contactTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Me"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"/>
+
+
+    <TextView
+        android:id="@+id/contactText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:pavanasanath192@gmail.com\nLinkedIn: linkedin.com/in/pavanasanath"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
